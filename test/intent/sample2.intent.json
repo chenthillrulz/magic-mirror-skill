@@ -1,0 +1,7 @@
+{
+  "utterance": "test",
+  "intent_type": "NameIntent",
+  "intent": {
+    "NameKeyword": "test"
+  }
+}

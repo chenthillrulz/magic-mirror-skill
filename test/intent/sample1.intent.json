@@ -1,0 +1,7 @@
+{
+  "utterance": "What does software ag do",
+  "intent_type": "SoftwareAGIntent",
+  "intent": {
+    "SoftwareAGkeyword": "software ag"
+  }
+}

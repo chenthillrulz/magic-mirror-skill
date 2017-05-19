@@ -5,7 +5,7 @@ from mycroft.messagebus.message import Message
 from mycroft.skills.core import MycroftSkill
 from mycroft.util.log import getLogger
 import sys
-sys.path.append('/opt/mycroft/skills/magic_mirror')
+sys.path.append('/opt/mycroft/skills/magic-mirror-skill')
 from server_helper import RestHelper
 
 __author__ = "Tools UI"

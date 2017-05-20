@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db47de5-84ab-452e-a8f8-be778e052520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/en-us/movies.dialog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/en-us/weather.dialog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vocab/en-us/WeatherKeyword.voc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dialog/en-us/home.dialog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vocab/en-us/HomeKeyword.voc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dialog/en-us/direction.dialog" afterPath="$PROJECT_DIR$/dialog/en-us/direction.dialog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dialog/en-us/harish.dialog" afterPath="$PROJECT_DIR$/dialog/en-us/harish.dialog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dialog/en-us/traffic.dialog" afterPath="$PROJECT_DIR$/dialog/en-us/traffic.dialog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dialog/en-us/softwareag.dialog" afterPath="$PROJECT_DIR$/dialog/en-us/softwareag.dialog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regex/en-us/location.rx" afterPath="$PROJECT_DIR$/regex/en-us/location.rx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server_helper.py" afterPath="$PROJECT_DIR$/server_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc" afterPath="$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc" afterPath="$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vocab/en-us/TrafficKeyword.voc" afterPath="$PROJECT_DIR$/vocab/en-us/TrafficKeyword.voc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc" afterPath="$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="432">
+              <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -36,38 +37,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherKeyword.voc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vocab/en-us/WeatherKeyword.voc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="direction.dialog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dialog/en-us/direction.dialog">
+      <file leaf-file-name="softwareag.dialog" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dialog/en-us/softwareag.dialog">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesKeyword.voc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpcomingMovies.voc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc">
+      <file leaf-file-name="home.dialog" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dialog/en-us/home.dialog">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
@@ -76,41 +57,61 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TrafficKeyword.voc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vocab/en-us/TrafficKeyword.voc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeKeyword.voc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vocab/en-us/HomeKeyword.voc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectionsKeyword.voc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="server_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="540">
+              <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weather.dialog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dialog/en-us/weather.dialog">
+      <file leaf-file-name="sunita.dialog" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dialog/en-us/sunita.dialog">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traffic.dialog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dialog/en-us/traffic.dialog">
+      <file leaf-file-name="priya.dialog" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dialog/en-us/priya.dialog">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movies.dialog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dialog/en-us/movies.dialog">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -120,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/dialog/en-us/harish.dialog">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -136,7 +137,6 @@
       <list>
         <option value="$PROJECT_DIR$/vocab/en-us/SoftwareAG.voc" />
         <option value="$PROJECT_DIR$/vocab/en-us/SoftwareAGKeyword.voc" />
-        <option value="$PROJECT_DIR$/dialog/en-us/softwareag.dialog" />
         <option value="$PROJECT_DIR$/dialog/en-us/suneetha.dialog" />
         <option value="$PROJECT_DIR$/vocab/en-us/SuneethaKeywork.voc" />
         <option value="$PROJECT_DIR$/dialog/en-us/priya.dialog" />
@@ -149,17 +149,22 @@
         <option value="$PROJECT_DIR$/vocab/en-us/Locations.voc" />
         <option value="$PROJECT_DIR$/vocab/en-us/Traffic.voc" />
         <option value="$PROJECT_DIR$/vocab/en-us/LocationsKeyword.voc" />
-        <option value="$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc" />
-        <option value="$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc" />
-        <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/server_helper.py" />
         <option value="$PROJECT_DIR$/vocab/en-us/WeatherKeyword.voc" />
-        <option value="$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc" />
         <option value="$PROJECT_DIR$/dialog/en-us/weather.dialog" />
         <option value="$PROJECT_DIR$/dialog/en-us/traffic.dialog" />
         <option value="$PROJECT_DIR$/dialog/en-us/movies.dialog" />
         <option value="$PROJECT_DIR$/dialog/en-us/direction.dialog" />
+        <option value="$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc" />
+        <option value="$PROJECT_DIR$/regex/en-us/location.rx" />
+        <option value="$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc" />
+        <option value="$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc" />
+        <option value="$PROJECT_DIR$/vocab/en-us/HomeKeyword.voc" />
+        <option value="$PROJECT_DIR$/vocab/en-us/TrafficKeyword.voc" />
+        <option value="$PROJECT_DIR$/server_helper.py" />
+        <option value="$PROJECT_DIR$/dialog/en-us/softwareag.dialog" />
         <option value="$PROJECT_DIR$/dialog/en-us/harish.dialog" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/dialog/en-us/home.dialog" />
       </list>
     </option>
   </component>
@@ -185,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,6 +276,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -425,22 +430,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dialog/en-us/direction.dialog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -453,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,20 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dialog/en-us/priya.dialog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dialog/en-us/sunita.dialog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vocab/en-us/NameKeyword.voc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -676,18 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vocab/en-us/TrafficKeyword.voc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dialog/en-us/anish.dialog">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,55 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dialog/en-us/softwareag.dialog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/en-us/location.rx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dialog/en-us/harish.dialog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dialog/en-us/movies.dialog">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -803,13 +709,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regex/en-us/location.rx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocab/en-us/UpcomingMovies.voc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocab/en-us/MoviesKeyword.voc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocab/en-us/DirectionsKeyword.voc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocab/en-us/TrafficKeyword.voc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog/en-us/sunita.dialog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog/en-us/priya.dialog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog/en-us/harish.dialog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocab/en-us/HomeKeyword.voc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog/en-us/softwareag.dialog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog/en-us/home.dialog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

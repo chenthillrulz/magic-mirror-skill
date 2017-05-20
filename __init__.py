@@ -33,7 +33,10 @@ class MagicMirrorSkill(MycroftSkill):
         self.register_intent(intent, self.weather_intent)
 
         intent = IntentBuilder("MoviesIntent").require("MoviesKeyword").build()
-        self.register_intent(intent, self.weather_intent)
+        self.register_intent(intent, self.movies_intent)
+
+        intent = IntentBuilder("HomeIntent").require("HomeKeyword").build()
+        self.register_intent(intent, self.home_intent)
 
     def name_intent(self, message):
         try:
@@ -57,6 +60,10 @@ class MagicMirrorSkill(MycroftSkill):
         except Exception,e:
             print (str(e))
             raise ValueError("Location Not found")
+
+    def home_intent (self, message):
+        self.rh.get_home()
+        self.speak_dialog("home")
 
     def movies_intent (self, message):
         self.rh.get_current_movies()

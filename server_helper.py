@@ -28,7 +28,13 @@ class RestHelper:
         res = requests.get(url)
         self.store_response(res.text)
 
+    def get_home(self):
+        url = self.server_host_name
+        res = requests.get(url)
+        self.store_response(res.text)
+
     def store_response(self, html_text):
         f = open(self.filename, 'w')
         f.write(html_text)
         f.close()
+

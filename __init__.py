@@ -35,6 +35,9 @@ class MagicMirrorSkill(MycroftSkill):
         intent = IntentBuilder("MoviesIntent").require("MoviesKeyword").build()
         self.register_intent(intent, self.movies_intent)
 
+        intent = IntentBuilder("UpcomingMoviesIntent").require("UpcomingMovies").build()
+        self.register_intent(intent, self.upcoming_movies_intent)
+
         intent = IntentBuilder("HomeIntent").require("HomeKeyword").build()
         self.register_intent(intent, self.home_intent)
 
@@ -67,6 +70,10 @@ class MagicMirrorSkill(MycroftSkill):
 
     def movies_intent (self, message):
         self.rh.get_current_movies()
+        self.speak_dialog("movies")
+
+    def upcoming_movies_intent (self, message):
+        self.rh.get_upcoming_movies()
         self.speak_dialog("movies")
 
     def weather_intent (self, message):

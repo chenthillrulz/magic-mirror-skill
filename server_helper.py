@@ -28,6 +28,11 @@ class RestHelper:
         res = requests.get(url)
         self.store_response(res.text)
 
+    def get_upcoming_movies(self):
+        url = self.server_host_name + "upcoming_movies"
+        res = requests.get(url)
+        self.store_response(res.text)
+
     def get_home(self):
         url = self.server_host_name
         res = requests.get(url)

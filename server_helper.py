@@ -2,7 +2,7 @@ import requests
 
 class RestHelper:
     def __init__(self):
-        self.filename = "/tmp/rasp/index.html"
+        self.filename = "/home/pi/casper_home_page/index.html"
         self.server_host_name = "http://localhost:3000/"
 
     def get_traffic (self, location):

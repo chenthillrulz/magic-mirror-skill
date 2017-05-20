@@ -18,6 +18,16 @@ class RestHelper:
         res = requests.get(url, payload)
         self.store_response(res.text)
 
+    def get_weather (self):
+        url = self.server_host_name + "weather"
+        res = requests.get(url)
+        self.store_response(res.text)
+
+    def get_current_movies(self):
+        url = self.server_host_name + "movies"
+        res = requests.get(url)
+        self.store_response(res.text)
+
     def store_response(self, html_text):
         f = open(self.filename, 'w')
         f.write(html_text)

@@ -29,6 +29,12 @@ class MagicMirrorSkill(MycroftSkill):
         intent = IntentBuilder("DirectionIntent").require("DirectionsKeyword").require("LocationsKeyword").build()
         self.register_intent(intent, self.direction_intent)
 
+        intent = IntentBuilder("WeatherIntent").require("WeatherKeyword").build()
+        self.register_intent(intent, self.weather_intent)
+
+        intent = IntentBuilder("MoviesIntent").require("MoviesKeyword").build()
+        self.register_intent(intent, self.weather_intent)
+
     def name_intent(self, message):
         try:
             name = message.data.get("NameKeyword", None)
@@ -40,6 +46,7 @@ class MagicMirrorSkill(MycroftSkill):
         try:
             location = message.data.get("LocationsKeyword", None)
             self.rh.get_traffic(location)
+            self.speak_dialog("traffic")
         except:
             raise ValueError("Location Not Found")
 
@@ -51,6 +58,13 @@ class MagicMirrorSkill(MycroftSkill):
             print (str(e))
             raise ValueError("Location Not found")
 
+    def movies_intent (self, message):
+        self.rh.get_current_movies()
+        self.speak_dialog("movies")
+
+    def weather_intent (self, message):
+        self.rh.get_weather()
+        self.speak_dialog("weather")
 
     def softwareag_intent(self, message):
         self.speak_dialog("softwareag")
